@@ -127,7 +127,7 @@ const results = await adapter.classifyBatch(["text1", "text2"]);
 
 // Health check
 const health = await adapter.healthCheck();
-// { status: "ok", model: "meta-llama/Prompt-Guard-2-86M" }
+// { status: "ok", model: "meta-llama/Llama-Prompt-Guard-2-86M" }
 ```
 
 ### Layer 3: LLM Judgment + Intent Alignment

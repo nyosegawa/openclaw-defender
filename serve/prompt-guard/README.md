@@ -63,5 +63,5 @@ Response:
 ### `GET /health`
 
 ```json
-{ "status": "ok", "model": "meta-llama/Prompt-Guard-2-86M", "device": "cpu" }
+{ "status": "ok", "model": "meta-llama/Llama-Prompt-Guard-2-86M", "device": "cpu" }
 ```
