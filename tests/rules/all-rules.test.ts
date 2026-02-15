@@ -29,8 +29,9 @@ describe("getBuiltinRules", () => {
   it("returns all built-in rules", () => {
     const rules = getBuiltinRules();
     // 3 structural + 3 instruction_override + 3 encoding_evasion
-    // + 2 indirect_injection + 2 social_engineering + 3 payload_pattern = 16
-    expect(rules.length).toBe(16);
+    // + 2 indirect_injection + 2 social_engineering + 3 payload_pattern
+    // + 4 multilingual = 20
+    expect(rules.length).toBe(20);
   });
 
   it("every rule has required fields", () => {

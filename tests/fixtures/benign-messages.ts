@@ -65,4 +65,35 @@ export const benignMessages: Array<{
     input: "The priority queue implementation uses a binary heap. The role of the comparator function is to determine ordering.",
     description: "Technical discussion using 'priority' and 'role' in benign context",
   },
+
+  // ── Multilingual benign messages ──────────────────────────────
+
+  {
+    input: "\u3053\u306e\u6307\u793a\u66f8\u306b\u5f93\u3063\u3066\u4f5c\u696d\u3057\u3066\u304f\u3060\u3055\u3044",
+    description: "Japanese: normal business instruction - follow the instruction manual (benign)",
+  },
+  {
+    input: "\u524d\u306e\u4f1a\u8b70\u306e\u8b70\u4e8b\u9332\u3092\u898b\u305b\u3066\u304f\u3060\u3055\u3044",
+    description: "Japanese: show meeting notes from previous meeting (benign)",
+  },
+  {
+    input: "\u7cfb\u7edf\u66f4\u65b0\u5b8c\u6210\u4e86",
+    description: "Chinese: system update completed (benign)",
+  },
+  {
+    input: "Das System funktioniert gut",
+    description: "German: the system works well (benign)",
+  },
+  {
+    input: "Las instrucciones del manual est\u00e1n claras",
+    description: "Spanish: the manual instructions are clear (benign)",
+  },
+  {
+    input: "\uc548\ub155\ud558\uc138\uc694, \uc624\ub298 \ub0a0\uc528\uac00 \uc88b\ub124\uc694",
+    description: "Korean: hello, nice weather today (benign)",
+  },
+  {
+    input: "\u041f\u0440\u0438\u0432\u0435\u0442, \u043a\u0430\u043a \u0434\u0435\u043b\u0430?",
+    description: "Russian: hi, how are you? (benign)",
+  },
 ];

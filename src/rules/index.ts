@@ -6,6 +6,7 @@ import { encodingEvasionRules } from "./encoding-evasion.js";
 import { indirectInjectionRules } from "./indirect-injection.js";
 import { socialEngineeringRules } from "./social-engineering.js";
 import { payloadPatternRules } from "./payload-patterns.js";
+import { multilingualRules } from "./multilingual.js";
 
 export {
   structuralInjectionRules,
@@ -14,6 +15,7 @@ export {
   indirectInjectionRules,
   socialEngineeringRules,
   payloadPatternRules,
+  multilingualRules,
 };
 
 export type { Rule } from "./types.js";
@@ -30,5 +32,6 @@ export function getBuiltinRules(): Rule[] {
     ...indirectInjectionRules,
     ...socialEngineeringRules,
     ...payloadPatternRules,
+    ...multilingualRules,
   ];
 }
