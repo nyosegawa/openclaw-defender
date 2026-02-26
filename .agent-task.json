@@ -1,0 +1,14 @@
+{
+  "description": "チャットボット向け3層プロンプトインジェクション防御ライブラリ。Layer 1: 20個の正規表現/キーワードルール（9言語対応）、Layer 2: ML分類器（PromptGuard/DeBERTa）、Layer 3: LLM判定（Cerebras/OpenAI/Anthropic）。TypeScript ESM、ゼロランタイム依存。",
+  "commands": [
+    { "name": "Build", "command": "npm run build" },
+    { "name": "Test", "command": "npm test" },
+    { "name": "Test (watch)", "command": "npm run test:watch" },
+    { "name": "Type check", "command": "npx tsc --noEmit" }
+  ],
+  "links": [
+    { "name": "GitHub", "url": "https://github.com/nyosegawa/openclaw-defender" },
+    { "name": "npm", "url": "https://www.npmjs.com/package/openclaw-defender" }
+  ],
+  "shortcuts": []
+}
