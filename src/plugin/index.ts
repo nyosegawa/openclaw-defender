@@ -78,7 +78,7 @@ export function createDefenderPlugin(
       },
     },
 
-    async register(api: OpenClawPluginApi) {
+    register(api: OpenClawPluginApi) {
       api.logger.info("[defender] Initializing openclaw-defender plugin...");
 
       // Create scanner with optional config overrides

@@ -47,7 +47,7 @@ export interface OpenClawPluginDefinition {
     parse?: (value: unknown) => unknown;
     jsonSchema?: Record<string, unknown>;
   };
-  register(api: OpenClawPluginApi): void | Promise<void>;
+  register(api: OpenClawPluginApi): void;
 }
 
 // ── Defender Plugin Config ───────────────────────────────────
